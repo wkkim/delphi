@@ -25,7 +25,7 @@ implementation
 
 procedure TForm5.Button1Click(Sender: TObject);
 begin
-  showmessage('test');
+  showmessage('test1');
 end;
 
 end.
