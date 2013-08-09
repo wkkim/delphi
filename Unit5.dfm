@@ -13,4 +13,13 @@ object Form5: TForm5
   OldCreateOrder = False
   PixelsPerInch = 96
   TextHeight = 13
+  object Button1: TButton
+    Left = 24
+    Top = 24
+    Width = 377
+    Height = 81
+    Caption = 'Button1'
+    TabOrder = 0
+    OnClick = Button1Click
+  end
 end
