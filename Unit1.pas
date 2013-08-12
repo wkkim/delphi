@@ -10,8 +10,10 @@ type
   TForm5 = class(TForm)
     Button1: TButton;
     Button2: TButton;
+    Button3: TButton;
     procedure Button1Click(Sender: TObject);
     procedure Button2Click(Sender: TObject);
+    procedure Button3Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -33,6 +35,11 @@ end;
 procedure TForm5.Button2Click(Sender: TObject);
 begin
    ShowMessage('hello1');
+end;
+
+procedure TForm5.Button3Click(Sender: TObject);
+begin
+  ShowMessage('button3');
 end;
 
 end.
