@@ -32,7 +32,7 @@ end;
 
 procedure TForm5.Button2Click(Sender: TObject);
 begin
-   ShowMessage('hello');
+   ShowMessage('hello1');
 end;
 
 end.
